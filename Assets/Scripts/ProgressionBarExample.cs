@@ -15,7 +15,7 @@ public class ProgressionBarExample : MonoBehaviour
 
     // Denna raden gör variablen synlig i editor (SerializeField) och Range säger vilka värden vi godkänner 
     // Variablen är mellan. I detta läget så kan progressionValue bara vara mellan 0 och 100.
-    [SerializeField][Range(0, 100)] int progressionValue;
+    [SerializeField][Range(0, 100)] public int progressionValue;
 
     void Update()
     {
